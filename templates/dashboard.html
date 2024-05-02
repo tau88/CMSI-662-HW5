@@ -2,6 +2,10 @@
 <p style="color: red">{{ error }}</p>
 {% endif %}
 <h1>What would you like to do today?</h1>
+<!-- I would like to indicate that I am aware that the saving and checking
+accounts are hard coded to point to these account numbers. I am keeping it this way
+as it serves to easily debug the authorization capabilities of the webapp and it is
+unrelated to security vulnerabilities as they would be pointing properly in reality -->
 <p><a href="/details?account=100">Savings account details</a></p>
 <p><a href="/details?account=998">Checking account details</a></p>
 <p><a href="/transfer">Transfer</a></p>
